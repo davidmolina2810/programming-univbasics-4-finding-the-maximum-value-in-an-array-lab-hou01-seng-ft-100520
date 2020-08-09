@@ -6,6 +6,7 @@
     #6. index += 1
   #end
   #index += 1
+  #7. return max 
 #end
 def find_max_value(array)
   # Add your solution here
