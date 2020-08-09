@@ -18,5 +18,6 @@ def find_max_value(array)
     end
     index += 1
   end
+  max 
 end
       
