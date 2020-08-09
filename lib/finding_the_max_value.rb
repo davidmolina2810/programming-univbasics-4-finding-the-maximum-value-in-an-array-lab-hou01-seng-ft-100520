@@ -1,11 +1,22 @@
-#1. assign var max = nil
-#2. counter = 0
-#3. while counter < array.length
-  #4. if array[counter] > array[counter+1] and max < array[counter]
-    #5. max = array [counter]
-    #6. counter += 1
-  #7. else
-        #counter += 1
-  #8. return max
+#1. set index to 0 
+#2. set variable max to -1
+#3. while index < array.length - 1
+  #4. if array[index] > max 
+    #5. max = array[index]
+    #6. index += 1
+  #end
+  #index += 1
+#end        
 def find_max_value(array)
   # Add your solution here
+  index = 0 
+  max = -1
+  while index < array.length - 1
+    if array[index] > max
+      max = array[index]
+      index += 1
+    end
+    index += 1
+  end
+end
+      
